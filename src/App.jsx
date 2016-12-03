@@ -32,7 +32,7 @@ class App extends React.Component {
                 todo.completed = !todo.completed;
             }
 
-            return todo;
+            return todo; 
         });
 
         this.setState({ todos });
